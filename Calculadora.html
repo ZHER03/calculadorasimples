@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="=, initial-scale=1.0">
+    <title>Calculadora simples</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <label for="nome" id="label1" style="margin-right: 100px;">Soma</label>
+    <input type="number" name="so1" id="so1"> +
+    <input type="number" name="so2" id="so2"> 
+    <input type="button"  id="som" value="=" onclick="somar()">
+    <div id="res1">Resultado</div>
+
+    <label for="nome" id="label2" style="margin-right: 70px;">Subtração</label>
+    <input type="number" name="su1" id="su1"> -
+    <input type="number" name="su2" id="su2"> 
+    <input type="button" id="sub" value="=" onclick="subtrair()">
+    <div id="res2">Resultado</div>
+
+    <label for="nome" id="label3" style="margin-right: 50px;">Multiplicação</label>
+    <input type="number" name="m1" id="m1"> x
+    <input type="number" name="m2" id="m2"> 
+    <input type="button" id="mul" value="=" onclick="multiplicar()">
+    <div id="res3">Resultado</div>
+
+    
+    <label for="nome" id="label4" style="margin-right: 90px;">Divisão</label>
+    <input type="number" name="d1" id="d1"> /
+    <input type="number" name="d2" id="d2" onkeypress="Enter"> 
+    <input type="button" id="div" value="=" onclick="dividir()">
+    <div id="res4">Resultado</div>
+
+<script type="text/javascript" src="script.js"></script>    
+</body>
+</html>
